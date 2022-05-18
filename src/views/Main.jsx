@@ -23,7 +23,7 @@ const Main = () => {
   return (
     <div>
         <Form reloadList={reload}/>
-        <AllDisplay products={products}/>
+        <AllDisplay products={products} reloadList={reload}/>
     </div>
   )
 }
